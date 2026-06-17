@@ -34,7 +34,7 @@ export default function Home() {
 
           <p>
             Visualización territorial de instituciones,
-            actores y avances generales.
+            actores y avances.
           </p>
 
         </div>
