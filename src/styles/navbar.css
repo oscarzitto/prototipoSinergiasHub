@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 14px 30px;
+
+  background: linear-gradient(
+    135deg,
+    #0f4c81,
+    #1b5e20
+  );
+
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo img {
+  height: 60px;
+  width: auto;
+
+  transition: transform 0.25s ease;
+}
+
+.navbar-logo img:hover {
+  transform: scale(1.04);
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+
+  color: white;
+
+  font-weight: 600;
+
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.navbar-links a:hover {
+  color: #ffd54f;
+
+  transform: translateY(-2px);
+}
+
+.login-btn {
+  background: #f9c725;
+
+  color: #1e293b !important;
+
+  padding: 10px 16px;
+
+  border-radius: 8px;
+
+  font-weight: 700;
+}
+
+.login-btn:hover {
+  background: #ffd54f;
+
+  transform: translateY(-2px);
+}
