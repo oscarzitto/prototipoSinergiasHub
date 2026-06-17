@@ -10,7 +10,7 @@ export default function Home() {
       <h1>Web Hub SINERGIAS</h1>
 
       <p>
-        Plataforma para la visualización,
+        Plataforma hecha para la visualización,
         seguimiento y articulación de iniciativas de
         Desarrollo Sostenible y Turismo Responsable.
       </p>
